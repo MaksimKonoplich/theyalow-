@@ -1,3 +1,113 @@
+@font-face {
+	font-family: Segoe-WP;
+	src: url(fonts/Segoe-WP.ttf);
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("assets/fone.svg");
+  height: 566px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+    font-style: Segoe-WP, sans-serif;
+  color: #ffffff;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 142px;
+}
+
+
+
+.navbar {
+  width: 453px;
+  margin: 71px 140px 0 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background: #9b7d08;
+}
+
+.navbar ul li a {
+  display: flex;
+  height: 41px;
+  width: 150.5px;
+  /* border-left: 1px solid #9b7d08; */
+  text-decoration: none;
+  font-size: 17px;
+  color: #9b7d08;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
+}
+
+.navbar ul li a img {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first {
+  height: 212px;
+  background: red;
+}
+
+.second {
+  height: 509px;
+  background: blue;
+}
+
+.third {
+  height: 499px;
+  background: green;
+}
+
+.footer {
+  height: 64px;
+  background: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 input[type=range] {
   -webkit-appearance: none;
   width: 896px;
