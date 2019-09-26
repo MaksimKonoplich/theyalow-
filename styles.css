@@ -110,8 +110,38 @@ video{
 }
 
 
+.icon_area {
+  width: 1020px;
+  margin: 0 auto;
+}
 
+.icon_area ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  background: white;
+}
 
+.icon_area ul li a {
+  display: flex;
+  height: 212px;
+  width: 340px;
+  border-left: 1px solid #d2d2d2;
+  border-right: 1px solid #d2d2d2;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_area ul li:first-child a {
+  border-right: none;
+}
+
+.icon_area ul li:last-child a {
+  border-left: none;
+}
 
 
 
@@ -125,7 +155,7 @@ video{
 
 .first {
   height: 212px;
-  background: red;
+  /* background: red; */
 }
 
 .second {
