@@ -1,6 +1,11 @@
 @font-face {
-  font-family: Segoe WP;
-  src: url("assets/Segoe_WP.ttf");
+  font-family: SegoeWP;
+  src: url('SegoeWP.woff2');
+}
+
+@font-face {
+  font-family: PTSans-Bold;
+  src: url('assets/fonts/ptsans/PTSans-Bold.eot');
 }
 
 *{
@@ -34,13 +39,13 @@
   position: relative; 
 }
 
-.back { 
+.logo .back { 
   left: -82px; 
 }
 
 .logo h1 {
   margin-top: 30px;
-  font-style: Segoe WP;
+  font-style: 'SegoeWP', sans-serif;
   margin-left: -70px;
 }
 
@@ -89,6 +94,7 @@
   text-decoration: none;
   font-size: 17px;
   color: #9b7d08;
+  font-style: 'Segoe WP', sans-serif;
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(0deg, #f5c505 0%, #f5c505 100%);
@@ -104,9 +110,21 @@
   color: white;
 }
 
+.player {
+  width: 1020px;
+  margin: 0 auto; 
+  display: flex;
+}
+
 video{
+  height: 327px; 
   width: 549px;
-  height: 327px;
+  object-fit: cover;
+  margin-top: -26px;
+}
+
+.the {
+
 }
 
 
@@ -119,7 +137,6 @@ video{
   display: flex;
   list-style: none;
   justify-content: space-between;
-  background: white;
 }
 
 .icon_area ul li a {
@@ -133,6 +150,7 @@ video{
   color: black;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .icon_area ul li:first-child a {
@@ -143,19 +161,62 @@ video{
   border-left: none;
 }
 
+.icon_area ul li:first-child a img {
+margin-bottom: 18px;
+}
+
+.icon_area ul li:nth-child(2) a {
+  justify-content: start;
+}
+
+.icon_area ul li:nth-child(2) a img {
+  margin-bottom: 12px;
+  margin-top: 37px;
+}
+
+.icon_area ul li:last-child a img {
+  margin-bottom: 17px;
+}
 
 
 
 
+.footer {
+  height: 64px;
+  background: orangered;
+}
 
+.small-logo {
+  display: flex;
+  margin-top: 0px;
+  margin-left: 141px;
+}
 
+.small-logo h1 {
+  font-size: 29px;
+  color: #ffffff;
+  font-family: "Lucida Sans";
+  font-style: italic;
+  text-align: center;
+}
 
+.small-logo img {
+  width: 51px;
+  height: 51px;
+}
 
+.small-logo div { 
+  position: relative; 
+}
+
+.small-logo .back { 
+  left: -51px; 
+}
 
 
 .first {
   height: 212px;
-  /* background: red; */
+  background: url(assets/section1.svg) repeat; 
 }
 
 .second {
@@ -168,10 +229,7 @@ video{
   background: green;
 }
 
-.footer {
-  height: 64px;
-  background: orangered;
-}
+
 
 
 
