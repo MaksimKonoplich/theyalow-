@@ -38,6 +38,11 @@
   src: url('./assets/fonts/ptsans/PTSans-Narrow.woff2');
 }
 
+@font-face {
+  font-family: LucidaSans;
+  src: url('./assets/fonts/LucidaSans.woff2');
+}
+
 *{
   margin: 0px;
   padding: 0px;
@@ -772,4 +777,255 @@ p img {
 .small-logo .ya {  
   top: -7px;
   left: 26px;
+}
+
+@media screen and (max-width: 640px) {
+  .second-menu, .third-menu, .the, .arr, .lo, .calendar, .calendar + div, .prop, .twitter p, .twitter a {
+    display: none;
+  }
+
+  .wrapper {
+    width: 640px;
+  }
+
+  .header {
+    background: #595959;
+    height: 389px;
+  }
+
+  .navbar {
+    width: 455px;
+    margin: 0px 0px 0 0;
+  }
+
+  .navbar ul li a {
+    height: 62px;
+    font-size: 19px;
+  }
+
+  .navbar ul li a img {
+    width: 24px;
+    height: 22px;
+  }
+
+  .navbar ul li:first-child a img {
+    margin-left: 0px; 
+  }
+
+  .banner {
+    margin-bottom: 43px;
+  }
+
+  .logo {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .logo p {
+    font-size: 19px;
+    font-family: LucidaSans;
+    margin-top: 22px;
+    margin-left: -16px;
+  }
+
+  .logo .front {
+    width: 38px;
+    height: 37px;
+    left: 13px;
+    top: 12px;
+  }
+
+  .logo .back {
+    width: 38px;
+    height: 37px;
+    left: -25px;
+    top: 12px;
+  }
+
+  .video {
+    height: 327px; 
+    width: 640px;
+    object-fit: cover;
+  }
+
+  .anim {
+    width: 640px;
+    margin-left: 0px;
+  }
+
+  .anim .arrow3 {
+    top: -250px;
+    left: 323px;
+    width: 19px;
+    height: 34px;
+  }
+  
+  .anim .play {
+    top: -202px;
+    left: 295px;
+    width: 67px;
+    height: 67px;
+  }
+  
+  .anim .arrow {
+    top: -149px;
+    left: 93px;
+    width: 10px;
+    height: 17px;
+  }
+  
+  .anim .square {
+    top: -171px;
+    left: 83px;
+    width: 27px;
+    height: 27px;
+  }
+  
+  .anim .volume {
+    top: -191px;
+    left: 568px;
+    width: 15px;
+    height: 15px;
+  }
+  
+  .anim .window {
+    width: 640px;
+    height: 327px;
+  }
+  
+  .anim .rr {
+    top: -248px;
+    left: -78px;
+    width: 404px;
+    height: 12px;
+  }
+
+  .first {
+    height: 174px;
+    width: 640px;
+  }
+
+  .icon_area {
+    width: 640px;
+    margin: 0 auto;
+  }
+
+  .icon_area ul li a {
+    height: 174px;
+    width: 213px;
+    border-left: none;
+    border-right: none;
+    font-size: 23px;
+    font-family: Segoe UI;
+    text-align: center;
+  }
+
+  .icon_area ul li:first-child a img {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-left: -48px;
+    width: 89px;
+    height: 61px;
+  }
+  
+  .icon_area ul li:first-child a p {
+    padding-left: 0px;
+    margin-left: -39px;
+  }
+  
+  .icon_area ul li:nth-child(2) a {
+    justify-content: start;
+  }
+  
+  .icon_area ul li:nth-child(2) a img {
+    margin-bottom: 11px;
+    margin-top: 27px;
+    margin-left: 19px;
+    width: 67px;
+    height: 69px;
+  }
+  
+  .icon_area ul li:nth-child(2) a p {
+    padding-left: 17px;
+  }
+  
+  .icon_area ul li:last-child a img {
+    margin-bottom: 10px;
+    margin-top: -8px;
+    margin-left: 55px;
+    width: 67px;
+    height: 69px;
+  }
+  
+  .icon_area ul li:last-child a p {
+    padding-right: 0px;
+    margin-right: -65px;
+  }
+
+  .third {
+    height: 487px;
+    background: #474747;
+  }
+  
+  .dod {
+    width: 640px;
+    margin: 0 auto;
+  }
+  
+  .yellow-head {
+    font-size: 39px;
+    font-family: Open-Sans;
+    padding-top: 35px;
+    margin-bottom: 15px;
+    margin-left: -20px;
+  }
+  
+  .gadgets {
+    margin-left: 54px;
+  }
+  
+  .free {
+    top: 2px;
+    left: -27px;
+  }
+
+  .tablet {
+    right: 90px;
+  }
+  
+  .phone {
+    right: 65px;
+  }
+  
+  .footer {
+    height: 43px;
+  }
+  
+  .small-logo {
+    display: flex;
+    margin-left: 66px;
+  }
+  
+  .small-logo p {
+    font-size: 19px;
+    font-style: italic;
+    font-family: LucidaSans, sans-serif;
+    margin-top: 18px;
+    margin-left: -83px;
+  }
+  
+  .small-logo img {
+    width: 29px;
+    height: 29px;
+  }
+  
+  .small-logo .back { 
+    left: -55px;
+    top: 7px;
+  }
+  
+  .small-logo .front {  
+    top: 7px;
+    left: -17px;
+  }
 }
